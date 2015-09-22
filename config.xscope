@@ -1,0 +1,74 @@
+<xSCOPEconfig ioMode="timed" initTracing="true" enabled="true">
+  <Probe name="Reserved0" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="Reserved1" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="Reserved2" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="Reserved3" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="Reserved4" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="Reserved5" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="Reserved6" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="Reserved7" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="Reserved8" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="Reserved9" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  
+
+  <!-- Motor control instance 0 -->
+  <Probe name="MOTCTRL_0_target_position" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="MOTCTRL_0_actual_position" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  
+  <Probe name="MOTCTRL_0_target_torque" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="MOTCTRL_0_actual_torque" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  
+  <Probe name="MOTCTRL_0_target_velocity" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="MOTCTRL_0_actual_velocity" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  
+
+  <!-- Motor control instance 1 -->
+  <Probe name="MOTCTRL_1_target_position" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="MOTCTRL_1_actual_position" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  
+  <Probe name="MOTCTRL_1_target_torque" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="MOTCTRL_1_actual_torque" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  
+  <Probe name="MOTCTRL_1_target_velocity" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="MOTCTRL_1_actual_velocity" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  
+
+  <!-- Motor control instance 2 -->
+  <Probe name="MOTCTRL_2_target_position" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="MOTCTRL_2_actual_position" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  
+  <Probe name="MOTCTRL_2_target_torque" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="MOTCTRL_2_actual_torque" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  
+  <Probe name="MOTCTRL_2_target_velocity" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="MOTCTRL_2_actual_velocity" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  
+
+  <!-- Motor control instance 3 -->
+  <Probe name="MOTCTRL_3_target_position" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="MOTCTRL_3_actual_position" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  
+  <Probe name="MOTCTRL_3_target_torque" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="MOTCTRL_3_actual_torque" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  
+  <Probe name="MOTCTRL_3_target_velocity" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="MOTCTRL_3_actual_velocity" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  
+
+  <!-- Motor control instance 4 -->
+  <Probe name="MOTCTRL_4_target_position" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="MOTCTRL_4_actual_position" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  
+  <Probe name="MOTCTRL_4_target_torque" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="MOTCTRL_4_actual_torque" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  
+  <Probe name="MOTCTRL_4_target_velocity" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="MOTCTRL_4_actual_velocity" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  
+  
+  <!-- ecatcnf instance 0 -->
+  <Probe name="ECATCNF_0_first" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  <Probe name="ECATCNF_0_second" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+  
+  <!-- Custom instances -->
+</xSCOPEconfig>
