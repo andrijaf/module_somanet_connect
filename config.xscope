@@ -69,6 +69,4 @@
   <!-- ecatcnf instance 0 -->
   <Probe name="ECATCNF_0_first" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
   <Probe name="ECATCNF_0_second" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
-  
-  <!-- Custom instances -->
 </xSCOPEconfig>
