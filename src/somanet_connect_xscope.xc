@@ -18,6 +18,7 @@ void somanet_connect_xscope_int(service_type service_v, unsigned int probe, unsi
         default:
             printstrln("ERROR: Unknown type");
             exit(1);
+            return; // Used just to avoid a warning saying that default is not closed with return or break
     }
     if (probe_number < 0 || probe_number > 255) {
         printstrln("ERROR: Invalid probe number");
