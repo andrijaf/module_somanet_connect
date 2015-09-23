@@ -85,7 +85,7 @@ Create the header file for the custom service (inside the application's src dire
 	};
 	
 	void custom_service(unsigned int instance_number, unsigned int frequency,
-						 server interface custom_service_interface csi);
+	server interface custom_service_interface csi);
 
 Create the header file for the custom plugin inside the application's src directory:
 
@@ -102,7 +102,7 @@ Create the header file for the custom plugin inside the application's src direct
 	
 	[[combinable]]
 	void custom_plugin(server interface somanet_connect_plugin_interface scpi,
-					   client interface custom_service_interface csi[n], unsigned n);
+	client interface custom_service_interface csi[n], unsigned n);
 
 Step 3: Create plugin and service source files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -124,7 +124,7 @@ Create the source file for the custom service:
 	#endif
 	
 	void custom_service(unsigned int instance_number, unsigned int frequency,
-						server interface custom_service_interface csi) {
+	server interface custom_service_interface csi) {
 	    timer t;
 	    uint64_t time;
 	    const uint64_t period = (1000 * 250000)/frequency; // 250000 timer ticks = 1ms (ReferenceFrequency="250MHz")
@@ -189,7 +189,7 @@ Create the source file for the custom plugin:
 	
 	[[combinable]]
 	void custom_plugin(server interface somanet_connect_plugin_interface scpi,
-					   client interface custom_service_interface csi[n], unsigned n) {
+	client interface custom_service_interface csi[n], unsigned n) {
 	    unsigned char type = CUSTOM_PLUGIN_TYPE;
 	
 	    while(1) {
